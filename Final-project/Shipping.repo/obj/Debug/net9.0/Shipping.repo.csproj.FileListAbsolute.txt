@@ -1,0 +1,34 @@
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.AssemblyReference.cache
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfoInputs.cache
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfo.cs
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.CoreCompileInputs.cache
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.deps.json
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.runtimeconfig.json
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.dll
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.pdb
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.dll
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.pdb
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.098C0A10.Up2Date
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.dll
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\refint\Shipping.repo.dll
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.pdb
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.genruntimeconfig.cache
+C:\Users\Islam\OneDrive\Desktop\Final-project\Shipping.repo\obj\Debug\net9.0\ref\Shipping.repo.dll
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.deps.json
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.runtimeconfig.json
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.dll
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.pdb
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.dll
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.pdb
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfoInputs.cache
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfo.cs
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.098C0A10.Up2Date
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.dll
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\refint\Shipping.repo.dll
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.pdb
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.genruntimeconfig.cache
+C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.repo\obj\Debug\net9.0\ref\Shipping.repo.dll
