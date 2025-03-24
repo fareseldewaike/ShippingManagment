@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p5OG7AK0E3U=",
+  "dgSpecHash": "rnnYcdhjmO4=",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\Shipping.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
