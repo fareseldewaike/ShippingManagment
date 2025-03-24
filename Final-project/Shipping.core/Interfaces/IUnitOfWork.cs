@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Shipping.core.Interfaces
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IAsyncDisposable
     {
-        Task<IGenericRepo<T>> repository<T>() where T : class;
-        Task CompleteAsync();
+       public IGenericRepo<T> Repository<T>() where T : class;
+        Task<int> CompleteAsync();
     }
 }
