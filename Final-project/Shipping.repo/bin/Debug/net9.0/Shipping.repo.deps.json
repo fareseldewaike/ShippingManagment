@@ -1059,8 +1059,17 @@
           }
         }
       },
+      "DTOs/1.0.0": {
+        "runtime": {
+          "DTOs.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Shipping.core/1.0.0": {
         "dependencies": {
+          "DTOs": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore": "9.0.3"
         },
@@ -1638,6 +1647,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Shipping.core/1.0.0": {
       "type": "project",

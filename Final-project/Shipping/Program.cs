@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Shipping.core.Interfaces;
 using Shipping.core.Models;
+using Shipping.Mapping;
 using Shipping.repo.Implementation;
 using Shipping.repo.ShippingCon;
+using Shipping.services;
 using System.Security.Claims;
 
 namespace Shipping
@@ -30,7 +32,9 @@ namespace Shipping
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ShippingContext>()
                 .AddDefaultTokenProviders();
- 
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IGovernorateService, GovernorateService>();
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
 
             var app = builder.Build();
 

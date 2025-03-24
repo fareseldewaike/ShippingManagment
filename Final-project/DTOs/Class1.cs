@@ -1,4 +1,4 @@
-﻿namespace Shipping.core
+﻿namespace DTOs
 {
     public class Class1
     {
