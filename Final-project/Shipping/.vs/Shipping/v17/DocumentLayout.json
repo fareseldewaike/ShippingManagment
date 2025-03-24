@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C0E31F-3C05-4E74-9473-4FB99592D03F}|..\\Shipping.core\\Shipping.core.csproj|c:\\users\\user\\downloads\\shipping-system\\final-project\\shipping.core\\shipping.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|c:\\users\\user\\downloads\\shipping-system\\final-project\\shipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EFF70B-275C-4AA6-AEB2-7CDCE370F40A}|..\\Shipping.repo\\Shipping.repo.csproj|c:\\users\\user\\downloads\\shipping-system\\final-project\\shipping.repo\\implementation\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Shipping.core",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
+              "RelativeDocumentMoniker": "..\\Shipping.core\\Shipping.core.csproj",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
+              "RelativeToolTip": "..\\Shipping.core\\Shipping.core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:09:16.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:46:29.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "..\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "RelativeToolTip": "..\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:27:57.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
