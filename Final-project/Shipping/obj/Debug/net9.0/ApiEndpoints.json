@@ -1,15 +1,37 @@
 [
   {
-    "ContainingType": "Shipping.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Shipping.Controllers.GovernorateController",
+    "Method": "AddGovernorate",
+    "RelativePath": "api/Governorate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "governorateDto",
+        "Type": "Shipping.DTO.GovernorateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GovernorateController",
+    "Method": "GetGovernorateById",
+    "RelativePath": "api/Governorate/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shipping.WeatherForecast, Shipping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shipping.DTO.GovernorateDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +39,63 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GovernorateController",
+    "Method": "UpdateGovernorate",
+    "RelativePath": "api/Governorate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "governorateDto",
+        "Type": "Shipping.DTO.GovernorateDTO",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GovernorateController",
+    "Method": "DeleteGovernorate",
+    "RelativePath": "api/Governorate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GovernorateController",
+    "Method": "GetGovernorates",
+    "RelativePath": "api/Governorate/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shipping.DTO.GovernorateDTO, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

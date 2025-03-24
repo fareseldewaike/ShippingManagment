@@ -26,3 +26,23 @@ C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.services\obj\De
 C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.pdb
 C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.genruntimeconfig.cache
 C:\Users\USER\Downloads\Final-project (1)\Final-project\Shipping.services\obj\Debug\net9.0\ref\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.services.deps.json
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.services.runtimeconfig.json
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.services.pdb
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.core.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.core.pdb
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.csproj.AssemblyReference.cache
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.AssemblyInfoInputs.cache
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.AssemblyInfo.cs
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.sourcelink.json
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.64B0AC04.Up2Date
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\refint\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.pdb
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.genruntimeconfig.cache
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\obj\Debug\net9.0\ref\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\DTOs.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\DTOs.pdb
