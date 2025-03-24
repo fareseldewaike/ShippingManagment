@@ -2938,23 +2938,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\wan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
+      "projectUniqueName": "E:\\final_iti\\Final-project\\Shipping.core\\Shipping.core.csproj",
       "projectName": "Shipping.core",
-      "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\obj\\",
+      "projectPath": "E:\\final_iti\\Final-project\\Shipping.core\\Shipping.core.csproj",
+      "packagesPath": "C:\\Users\\wan\\.nuget\\packages\\",
+      "outputPath": "E:\\final_iti\\Final-project\\Shipping.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2970,8 +2970,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj"
+            "E:\\final_iti\\Final-project\\DTOs\\DTOs.csproj": {
+              "projectPath": "E:\\final_iti\\Final-project\\DTOs\\DTOs.csproj"
             }
           }
         }
@@ -3029,7 +3029,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

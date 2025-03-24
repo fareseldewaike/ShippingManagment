@@ -10,3 +10,15 @@ C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\DTOs
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll
+E:\final_iti\Final-project\DTOs\bin\Debug\net9.0\DTOs.deps.json
+E:\final_iti\Final-project\DTOs\bin\Debug\net9.0\DTOs.dll
+E:\final_iti\Final-project\DTOs\bin\Debug\net9.0\DTOs.pdb
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfoInputs.cache
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfo.cs
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.csproj.CoreCompileInputs.cache
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.sourcelink.json
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.dll
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
+E:\final_iti\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll

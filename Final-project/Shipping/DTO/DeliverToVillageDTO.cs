@@ -9,6 +9,9 @@ namespace DTOs.DTO
     public class DeliverToVillageDTO
     {
         public double AdditionalCost { get; set; }
+        //public double AdditionalCost { get; set; }
+        //public double AdditionalCost { get; set; }
+        //public double AdditionalCost { get; set; }
 
     }
 }
