@@ -10,3 +10,15 @@ C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\DTOs
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
 C:\Users\USER\Downloads\Shipping-System\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\bin\Debug\net9.0\DTOs.deps.json
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\bin\Debug\net9.0\DTOs.dll
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\bin\Debug\net9.0\DTOs.pdb
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfoInputs.cache
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfo.cs
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.csproj.CoreCompileInputs.cache
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.sourcelink.json
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.dll
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
+D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll

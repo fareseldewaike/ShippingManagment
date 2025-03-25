@@ -1,5 +1,134 @@
 [
   {
+    "ContainingType": "Shipping.Controllers.DeliverToVillageController",
+    "Method": "GetALL",
+    "RelativePath": "api/DeliverToVillage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shipping.core.Models.DeliverToVillage, Shipping.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliverToVillageController",
+    "Method": "Add",
+    "RelativePath": "api/DeliverToVillage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Delive",
+        "Type": "DTOs.DTO.DeliverToVillageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.core.Models.DeliverToVillage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliverToVillageController",
+    "Method": "Delete",
+    "RelativePath": "api/DeliverToVillage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.core.Models.DeliverToVillage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliverToVillageController",
+    "Method": "GetById",
+    "RelativePath": "api/DeliverToVillage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.core.Models.DeliverToVillage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliverToVillageController",
+    "Method": "Update",
+    "RelativePath": "api/DeliverToVillage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Delive",
+        "Type": "Shipping.core.Models.DeliverToVillage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.core.Models.DeliverToVillage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Shipping.Controllers.GovernorateController",
     "Method": "AddGovernorate",
     "RelativePath": "api/Governorate",
@@ -97,5 +226,84 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.RejectionController",
+    "Method": "GetAllRejections",
+    "RelativePath": "api/Rejection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.RejectionController",
+    "Method": "AddRejection",
+    "RelativePath": "api/Rejection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rejectionDto",
+        "Type": "Shipping.DTO.Rejection.AddRejectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.RejectionController",
+    "Method": "GetRejection",
+    "RelativePath": "api/Rejection/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.RejectionController",
+    "Method": "UpdateRejection",
+    "RelativePath": "api/Rejection/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rejectionDto",
+        "Type": "Shipping.DTO.Rejection.RejectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.RejectionController",
+    "Method": "DeleteRejection",
+    "RelativePath": "api/Rejection/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
