@@ -34,6 +34,7 @@ namespace Shipping
                 .AddDefaultTokenProviders();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IGovernorateService, GovernorateService>();
+            builder.Services.AddScoped<ICityService, CityService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddAutoMapper(typeof(RecjectProfile));
 
