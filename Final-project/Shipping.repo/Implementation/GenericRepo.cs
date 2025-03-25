@@ -47,5 +47,9 @@ namespace Shipping.repo.Implementation
             _dbSet.Remove(entity);
    
         }
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
     }
 }
