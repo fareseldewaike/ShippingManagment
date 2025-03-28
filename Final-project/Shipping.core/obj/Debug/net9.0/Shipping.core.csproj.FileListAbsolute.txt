@@ -62,3 +62,6 @@ D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\Shipping.c
 D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb
 D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.genruntimeconfig.cache
 D:\Iti 4-mounth\Graduation Project\V2\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\ref\Shipping.core.dll
+D:\Shipping\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.dll
+D:\Shipping\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\refint\Shipping.core.dll
+D:\Shipping\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb

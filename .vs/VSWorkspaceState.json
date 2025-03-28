@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Final-project",
+    "\\Final-project\\DTOs\\DTO",
+    "\\Final-project\\DTOs\\DTO\\Rejection",
+    "\\Final-project\\Shipping.core",
+    "\\Final-project\\Shipping.core\\Interfaces",
+    "\\Final-project\\Shipping.core\\Models",
+    "\\Final-project\\Shipping.repo",
+    "\\Final-project\\Shipping.repo\\Implementation",
+    "\\Final-project\\Shipping.repo\\ShippingCon",
+    "\\Final-project\\Shipping.services\\obj"
+  ],
+  "SelectedNode": "\\Final-project\\Shipping.repo\\Implementation\\UnitOfWork.cs",
+  "PreviewInSolutionExplorer": false
+}
