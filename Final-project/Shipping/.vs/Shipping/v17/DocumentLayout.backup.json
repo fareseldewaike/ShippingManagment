@@ -1,30 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\",
+  "WorkspaceRootPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\rejectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\rejectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v3\\shippingmanagment\\final-project\\shipping\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\delivertovillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\delivertovillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v3\\shippingmanagment\\final-project\\dtos\\dto\\branch\\changestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\governoratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\governoratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v3\\shippingmanagment\\final-project\\dtos\\dto\\branch\\addbranchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4046DDCC-4B61-4054-88FC-5D49A308B267}|..\\Shipping.services\\Shipping.services.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping.services\\governorateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\dto\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\dto\\governoratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.Branches.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,93 +43,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GovernorateService.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping.services\\GovernorateService.cs",
-              "RelativeDocumentMoniker": "..\\Shipping.services\\GovernorateService.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping.services\\GovernorateService.cs",
-              "RelativeToolTip": "..\\Shipping.services\\GovernorateService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:08:57.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GovernorateController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GovernorateController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GovernorateController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GovernorateController.cs",
-              "RelativeToolTip": "Controllers\\GovernorateController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Title": "AddBranchDto.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTO\\Branch\\AddBranchDto.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\Branch\\AddBranchDto.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTO\\Branch\\AddBranchDto.cs",
+              "RelativeToolTip": "..\\DTOs\\DTO\\Branch\\AddBranchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:04:50.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RejectionController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RejectionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RejectionController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RejectionController.cs",
-              "RelativeToolTip": "Controllers\\RejectionController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:45:50.886Z",
+              "WhenOpened": "2025-03-28T09:00:53.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeliverToVillageController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DeliverToVillageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeliverToVillageController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DeliverToVillageController.cs",
-              "RelativeToolTip": "Controllers\\DeliverToVillageController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADoAAAAiAAAAAAAAAA==",
+              "Title": "ChangeStatusDto.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTO\\Branch\\ChangeStatusDto.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\Branch\\ChangeStatusDto.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTO\\Branch\\ChangeStatusDto.cs",
+              "RelativeToolTip": "..\\DTOs\\DTO\\Branch\\ChangeStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:41:44.069Z",
+              "WhenOpened": "2025-03-28T09:00:42.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GovernorateDTO.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\GovernorateDTO.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\GovernorateDTO.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\GovernorateDTO.cs",
-              "RelativeToolTip": "..\\DTOs\\DTO\\GovernorateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\Controllers\\BranchController.cs*",
+              "RelativeToolTip": "Controllers\\BranchController.cs*",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:40:30.018Z",
+              "WhenOpened": "2025-03-28T08:02:07.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CityDTO.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\CityDTO.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\CityDTO.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\CityDTO.cs",
-              "RelativeToolTip": "..\\DTOs\\DTO\\CityDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:38:30.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\Class1.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\Class1.cs",
-              "RelativeToolTip": "..\\DTOs\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:39:25.609Z",
+              "DocumentIndex": 3,
+              "Title": "dbo.Branches [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.Branches.sql",
+              "ToolTip": "dbo.Branches [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-28T08:35:28.356Z",
               "EditorCaption": ""
             }
           ]
