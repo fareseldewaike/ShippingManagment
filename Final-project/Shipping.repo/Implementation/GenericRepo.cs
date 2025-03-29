@@ -4,6 +4,7 @@ using Shipping.repo.ShippingCon;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,6 +47,10 @@ namespace Shipping.repo.Implementation
         {
             _dbSet.Remove(entity);
    
+        }
+        public async Task<T> GetByNameAsync(Expression<Func<T, bool>> predicate)
+        {
+            return await _dbSet.FirstOrDefaultAsync(predicate);
         }
     }
 }

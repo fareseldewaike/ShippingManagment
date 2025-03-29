@@ -1,4 +1,5 @@
-﻿using Shipping.core.Interfaces;
+﻿using DTOs.DTO;
+using Shipping.core.Interfaces;
 using Shipping.core.Models;
 using Shipping.DTO;
 using System.Collections.Generic;
@@ -25,7 +26,7 @@ namespace Shipping.services
         .Select(g => new GovernorateDTO
         {
             Name = g.Name,
-            Cities = g.Cities.Select(c => new CityDTO { Name = c.Name }).ToList() // Convert to CityDTO
+            Cities = g.Cities.Select(c => new CityDTO { Name = c.Name ,  id = c.Id }).ToList() // Convert to CityDTO
         }).ToList();
         }
 
@@ -39,18 +40,18 @@ namespace Shipping.services
             return new GovernorateDTO
             {
                 Name = governorate.Name,
-                Cities = governorate.Cities.Select(c => new CityDTO { Name = c.Name }).ToList() // Convert to CityDTO
+                Cities = governorate.Cities.Select(c => new CityDTO { Name = c.Name,  id = c.Id }).ToList() // Convert to CityDTO
             };
         }
 
 
-        public async Task AddGovernorate(GovernorateDTO governorateDto)
+        public async Task AddGovernorate(GovernorateAdd governorateDto)
         {
             var governorate = new Governorate
             {
                 Name = governorateDto.Name
             };
-
+ 
             await _unitOfWork.Repository<Governorate>().AddAsync(governorate);
             await _unitOfWork.CompleteAsync();
         }
