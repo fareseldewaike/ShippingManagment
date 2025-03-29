@@ -4951,23 +4951,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Support\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\Shipping.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\Shipping.csproj",
       "projectName": "Shipping",
-      "projectPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\Shipping.csproj",
-      "packagesPath": "C:\\Users\\Support\\.nuget\\packages\\",
-      "outputPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\Shipping.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Support\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4976,23 +4976,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTOs.csproj": {
-              "projectPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\DTOs\\DTOs.csproj"
+            "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj"
             },
-            "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.core\\Shipping.core.csproj": {
-              "projectPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.core\\Shipping.core.csproj"
+            "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj": {
+              "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj"
             },
-            "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.repo\\Shipping.repo.csproj": {
-              "projectPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.repo\\Shipping.repo.csproj"
+            "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Shipping.repo.csproj": {
+              "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Shipping.repo.csproj"
             },
-            "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.services\\Shipping.services.csproj": {
-              "projectPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping.services\\Shipping.services.csproj"
+            "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj": {
+              "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj"
             }
           }
         }

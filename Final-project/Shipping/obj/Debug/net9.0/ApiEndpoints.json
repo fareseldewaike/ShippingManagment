@@ -1,135 +1,5 @@
 [
   {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "GetAllBranches",
-    "RelativePath": "api/Branch",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[DTOs.DTO.Branch.BranchDto, DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "AddBranch",
-    "RelativePath": "api/Branch",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "branchDto",
-        "Type": "DTOs.DTO.Branch.AddBranchDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DTOs.DTO.Branch.AddBranchDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "GetBranch",
-    "RelativePath": "api/Branch/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DTOs.DTO.Branch.BranchDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "UpdateBranch",
-    "RelativePath": "api/Branch/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "branchDto",
-        "Type": "DTOs.DTO.Branch.AddBranchDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "DeleteBranch",
-    "RelativePath": "api/Branch/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Shipping.Controllers.BranchController",
-    "Method": "ChangeBranchStatus",
-    "RelativePath": "api/Branch/{id}/status",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "branchDto",
-        "Type": "DTOs.DTO.Branch.ChangeStatusDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Shipping.Controllers.CityController",
     "Method": "AddCity",
     "RelativePath": "api/City",
@@ -367,7 +237,7 @@
     "Parameters": [
       {
         "Name": "governorateDto",
-        "Type": "Shipping.DTO.GovernorateDTO",
+        "Type": "DTOs.DTO.GovernorateAdd",
         "IsRequired": true
       }
     ],
@@ -455,6 +325,164 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GroupController",
+    "Method": "CreateGroup",
+    "RelativePath": "api/Group/AddGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupDto",
+        "Type": "DTOs.DTO.CreateGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GroupController",
+    "Method": "GetGroups",
+    "RelativePath": "api/Group/AllGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GroupController",
+    "Method": "GetGroupPermissions",
+    "RelativePath": "api/Group/permissions/{groupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GroupController",
+    "Method": "RemoveGroup",
+    "RelativePath": "api/Group/RemoveGroup/{groupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.GroupController",
+    "Method": "UpdateGroup",
+    "RelativePath": "api/Group/UpdateGroup/{groupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "groupDto",
+        "Type": "DTOs.DTO.UpdateGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.MerchantController",
+    "Method": "GetAllMerchants",
+    "RelativePath": "api/Merchant/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.MerchantController",
+    "Method": "DeleteMerchant",
+    "RelativePath": "api/Merchant/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.MerchantController",
+    "Method": "GetMerchantWithSpecialPrices",
+    "RelativePath": "api/Merchant/MerchantWithSpecialPrices/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.MerchantController",
+    "Method": "RegisterMerchant",
+    "RelativePath": "api/Merchant/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "merchantAdd",
+        "Type": "DTOs.DTO.MerchantAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.MerchantController",
+    "Method": "UpdateMerchant",
+    "RelativePath": "api/Merchant/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "merchantDTO",
+        "Type": "DTOs.DTO.UpdateMerchantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Shipping.Controllers.RejectionController",
