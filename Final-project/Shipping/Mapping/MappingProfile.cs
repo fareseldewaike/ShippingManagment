@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DTOs.DTO.Branch;
 using Shipping.core.Models;
 using Shipping.DTO;
 
@@ -10,6 +11,9 @@ namespace Shipping.Mapping
         {
             CreateMap<Governorate, GovernorateDTO>();
             CreateMap<City, CityDTO>();
+
+            CreateMap<Branch, BranchDto>().ReverseMap();
+            CreateMap<Branch, AddBranchDto>().ReverseMap();
 
         }
     }

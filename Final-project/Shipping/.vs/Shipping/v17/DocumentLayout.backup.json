@@ -1,32 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\rejectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\rejectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\delivertovillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\delivertovillagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping\\controllers\\governoratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\governoratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4046DDCC-4B61-4054-88FC-5D49A308B267}|..\\Shipping.services\\Shipping.services.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\shipping.services\\governorateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\dto\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\dto\\governoratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\v2\\shippingmanagment\\final-project\\dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\Iti 4-mounth\\Graduation Project\\V3\\ShippingManagment\\Final-project\\Shipping\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,97 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GovernorateService.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping.services\\GovernorateService.cs",
-              "RelativeDocumentMoniker": "..\\Shipping.services\\GovernorateService.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping.services\\GovernorateService.cs",
-              "RelativeToolTip": "..\\Shipping.services\\GovernorateService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:08:57.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GovernorateController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GovernorateController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GovernorateController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GovernorateController.cs",
-              "RelativeToolTip": "Controllers\\GovernorateController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:04:50.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RejectionController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RejectionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RejectionController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RejectionController.cs",
-              "RelativeToolTip": "Controllers\\RejectionController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:45:50.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeliverToVillageController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DeliverToVillageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeliverToVillageController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DeliverToVillageController.cs",
-              "RelativeToolTip": "Controllers\\DeliverToVillageController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:41:44.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GovernorateDTO.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\GovernorateDTO.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\GovernorateDTO.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\GovernorateDTO.cs",
-              "RelativeToolTip": "..\\DTOs\\DTO\\GovernorateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:40:30.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CityDTO.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\CityDTO.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\CityDTO.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\DTO\\CityDTO.cs",
-              "RelativeToolTip": "..\\DTOs\\DTO\\CityDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:38:30.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\Class1.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\V2\\ShippingManagment\\Final-project\\DTOs\\Class1.cs",
-              "RelativeToolTip": "..\\DTOs\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T00:39:25.609Z",
-              "EditorCaption": ""
             }
           ]
         }
