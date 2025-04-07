@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DTOs.DTO;
+using Microsoft.AspNetCore.Mvc;
 using Shipping.core.Interfaces;
 using Shipping.DTO;
 using System.Collections.Generic;
@@ -43,7 +44,7 @@ namespace Shipping.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> AddGovernorate(GovernorateDTO governorateDto)
+        public async Task<ActionResult> AddGovernorate(GovernorateAdd governorateDto)
         {
             if (!ModelState.IsValid)
             {

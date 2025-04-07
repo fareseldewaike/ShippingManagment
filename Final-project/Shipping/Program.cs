@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Shipping.core.Interfaces;
 using Shipping.core.Models;
 using Shipping.Mapping;
@@ -8,6 +10,7 @@ using Shipping.repo.Implementation;
 using Shipping.repo.ShippingCon;
 using Shipping.services;
 using System.Security.Claims;
+using System.Text;
 
 namespace Shipping
 {
@@ -29,7 +32,12 @@ namespace Shipping
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
+                options =>
+                {
+                    options.User.AllowedUserNameCharacters = string.Empty;  
+                    options.User.RequireUniqueEmail = true;  
+                })
                 .AddEntityFrameworkStores<ShippingContext>()
                 .AddDefaultTokenProviders();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -37,6 +45,53 @@ namespace Shipping
             builder.Services.AddScoped<ICityService, CityService>();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddAutoMapper(typeof(RecjectProfile));
+            builder.Services.AddScoped<ISpecialPrice, SpecialShippingPrice>();
+            builder.Services.AddScoped<IGroupPermissionRepo, GroupPermissionRepo>();
+            builder.Services.AddScoped<GroupService>();
+
+
+            // Allow all origins (for development)
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
+            //Add JWT
+            var jwtSettings = builder.Configuration.GetSection("Jwt");
+            var key = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);
+            if (key.Length < 32)
+            {
+                throw new Exception("JWT Secret Key must be at least 32 characters long.");
+            }
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidIssuer = jwtSettings["Issuer"],
+                    ValidAudience = jwtSettings["Audience"],
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero 
+                };
+            });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
@@ -47,7 +102,7 @@ namespace Shipping
 
                 app.UseSwaggerUI(op => op.SwaggerEndpoint("/openapi/v1.json", "v1"));
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
