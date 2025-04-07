@@ -50,7 +50,17 @@ namespace Shipping
             builder.Services.AddScoped<GroupService>();
 
 
-
+            // Allow all origins (for development)
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
             //Add JWT
             var jwtSettings = builder.Configuration.GetSection("Jwt");
             var key = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);
@@ -92,7 +102,7 @@ namespace Shipping
 
                 app.UseSwaggerUI(op => op.SwaggerEndpoint("/openapi/v1.json", "v1"));
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
