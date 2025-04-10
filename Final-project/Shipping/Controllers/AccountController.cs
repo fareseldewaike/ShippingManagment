@@ -29,6 +29,7 @@ namespace Shipping.Controllers
         }
 
         [HttpPost("login")]
+        //[HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
             if (model == null)
