@@ -15,7 +15,7 @@ namespace Shipping.Controllers
         private readonly GroupService _groupService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public GroupController(GroupService groupService , IUnitOfWork unitOfWork)
+        public GroupController(GroupService groupService, IUnitOfWork unitOfWork)
         {
             _groupService = groupService;
             _unitOfWork = unitOfWork;
@@ -30,9 +30,10 @@ namespace Shipping.Controllers
 
             var permissionsDto = new GroupPermissionDto
             {
+                Id = permissions.FirstOrDefault().Group.Id,    //ta3del
                 Name = permissions.FirstOrDefault()?.Group?.Name,
                 Permissions = permissions
-                    .GroupBy(p => p.Permission?.Name)  
+                    .GroupBy(p => p.Permission?.Name)
                     .Select(g => new PermissionDto
                     {
                         PermissionName = g.Select(s => s.Permission.Name).FirstOrDefault(),
@@ -51,16 +52,16 @@ namespace Shipping.Controllers
 
             try
             {
-                 var existingGroup = await _unitOfWork.Repository<Group>()
-                    .GetByNameAsync(g => g.Name == groupDto.Name);
+                var existingGroup = await _unitOfWork.Repository<Group>()
+                   .GetByNameAsync(g => g.Name == groupDto.Name);
                 if (existingGroup != null)
                     return BadRequest(new { message = "Group name already exists." });
 
-                 var group = new Group { Name = groupDto.Name };
+                var group = new Group { Name = groupDto.Name };
                 await _unitOfWork.Repository<Group>().AddAsync(group);
                 await _unitOfWork.CompleteAsync();
 
-                 if (groupDto.Permissions != null && groupDto.Permissions.Any())
+                if (groupDto.Permissions != null && groupDto.Permissions.Any())
                 {
                     var groupPermissions = groupDto.Permissions.Select(p => new GroupPermission
                     {
@@ -83,22 +84,24 @@ namespace Shipping.Controllers
 
 
         [HttpGet("AllGroups")]
-         public async Task<IActionResult> GetGroups()
+        public async Task<IActionResult> GetGroups()
         {
             var groups = await _unitOfWork.Repository<Group>().GetAllAsync();
             if (!groups.Any())
                 return NotFound("No groups found.");
-         var groupDtos =  groups.Select(g => new GroupPermissionDto
-         {
-               Name = g.Name,
-             Permissions = g.GroupPermissions
-            .GroupBy(p => p.Permission.Name)
-            .Select(pg => new PermissionDto
+            var groupDtos = groups.Select(g => new GroupPermissionDto
             {
-                PermissionName = pg.Key,
-                Actions = pg.Select(p => p.Action).ToList()
-            }).ToList()
-         }).ToList();
+                Id = g.Id,   //t3del
+                Date = g.Date,  //ta3del
+                Name = g.Name,
+                Permissions = g.GroupPermissions
+               .GroupBy(p => p.Permission.Name)
+               .Select(pg => new PermissionDto
+               {
+                   PermissionName = pg.Key,
+                   Actions = pg.Select(p => p.Action).ToList()
+               }).ToList()
+            }).ToList();
             return Ok(groupDtos);
 
         }
@@ -117,10 +120,10 @@ namespace Shipping.Controllers
 
             try
             {
-                 if (!string.IsNullOrEmpty(groupDto.Name))
+                if (!string.IsNullOrEmpty(groupDto.Name))
                     group.Name = groupDto.Name;
 
-                 if (groupDto.Permissions != null && groupDto.Permissions.Any())
+                if (groupDto.Permissions != null && groupDto.Permissions.Any())
                 {
                     foreach (var permDto in groupDto.Permissions)
                     {
@@ -129,11 +132,11 @@ namespace Shipping.Controllers
 
                         if (existingPermission != null)
                         {
-                             existingPermission.Action = permDto.Action;
+                            existingPermission.Action = permDto.Action;
                         }
                         else
                         {
-                             var newPermission = new GroupPermission
+                            var newPermission = new GroupPermission
                             {
                                 GroupId = group.Id,
                                 PermissionId = permDto.PermissionId,
@@ -163,7 +166,7 @@ namespace Shipping.Controllers
 
             try
             {
-               _groupService.RemoveGroupPermissionsAsync(group.Id);
+                _groupService.RemoveGroupPermissionsAsync(group.Id);
 
                 _unitOfWork.Repository<Group>().DeleteAsync(group);
 

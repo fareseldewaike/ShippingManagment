@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DTOs.DTO;
 using Shipping.core.Interfaces;
 using Shipping.core.Models;
 using Shipping.DTO;
@@ -17,11 +18,14 @@ namespace Shipping.services
         {
             _unitOfWork = unitOfWork;
         }
-        public async Task AddCity(CityDTO cityDto)
+        public async Task AddCity(CityAdd cityDto)
         {
             var city = new City
             {
-                Name = cityDto.Name
+                Name = cityDto.Name,
+                Price = cityDto.Price,
+                Pickup = cityDto.Pickup,
+                GovernorateId = cityDto.GovernorateId,
             };
 
             await _unitOfWork.Repository<City>().AddAsync(city);
@@ -46,7 +50,11 @@ namespace Shipping.services
                 .Where(c => !c.isDeleted)
                 .Select(c => new CityDTO
                 {
-                    Name = c.Name
+                    id = c.Id,
+                    Name = c.Name,
+                    Price = c.Price,
+                    Pickup = c.Pickup,
+                    GovernorateId = c.Governorate.Id
                 }).ToList();
         }
 
@@ -57,7 +65,12 @@ namespace Shipping.services
                 return null;
             return new CityDTO
             {
-                Name = city.Name
+                id = city.Id,
+                Name = city.Name,
+                Price = city.Price,
+                Pickup = city.Pickup,
+                GovernorateId = city.Governorate.Id
+
             };
         }
 

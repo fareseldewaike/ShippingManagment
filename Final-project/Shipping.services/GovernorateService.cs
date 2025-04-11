@@ -25,9 +25,12 @@ namespace Shipping.services
         .Where(g => !g.IsDeleted)
         .Select(g => new GovernorateDTO
         {
+            Id = g.Id,
             Name = g.Name,
-            Cities = g.Cities.Select(c => new CityDTO { Name = c.Name ,  id = c.Id }).ToList() // Convert to CityDTO
+            Cities = g.Cities.Where(c => !c.isDeleted)
+                             .Select(c => new CityDTO { Name = c.Name, id = c.Id, Pickup = c.Pickup, Price = c.Price }).ToList() // Convert to CityDTO
         }).ToList();
+
         }
 
         public async Task<GovernorateDTO?> GetGovernorateById(int id)
@@ -39,8 +42,9 @@ namespace Shipping.services
 
             return new GovernorateDTO
             {
+                Id = governorate.Id,
                 Name = governorate.Name,
-                Cities = governorate.Cities.Select(c => new CityDTO { Name = c.Name,  id = c.Id }).ToList() // Convert to CityDTO
+                Cities = governorate.Cities.Select(c => new CityDTO { Name = c.Name, id = c.Id, Pickup = c.Pickup, Price = c.Price }).ToList() // Convert to CityDTO
             };
         }
 
@@ -51,7 +55,7 @@ namespace Shipping.services
             {
                 Name = governorateDto.Name
             };
- 
+
             await _unitOfWork.Repository<Governorate>().AddAsync(governorate);
             await _unitOfWork.CompleteAsync();
         }
