@@ -80,3 +80,21 @@ D:\Iti 4-mounth\Graduation Project\V3\ShippingManagment\Final-project\Shipping.c
 D:\Iti 4-mounth\Graduation Project\V3\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb
 D:\Iti 4-mounth\Graduation Project\V3\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.genruntimeconfig.cache
 D:\Iti 4-mounth\Graduation Project\V3\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\ref\Shipping.core.dll
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.deps.json
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.runtimeconfig.json
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.dll
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.pdb
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\DTOs.dll
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\bin\Debug\net9.0\DTOs.pdb
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.csproj.AssemblyReference.cache
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.AssemblyInfoInputs.cache
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.AssemblyInfo.cs
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.csproj.CoreCompileInputs.cache
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.sourcelink.json
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.3810CF18.Up2Date
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.dll
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\refint\Shipping.core.dll
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.genruntimeconfig.cache
+D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\ref\Shipping.core.dll

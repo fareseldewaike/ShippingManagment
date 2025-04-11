@@ -155,7 +155,7 @@
     "Parameters": [
       {
         "Name": "cityDto",
-        "Type": "Shipping.DTO.CityDTO",
+        "Type": "DTOs.DTO.CityAdd",
         "IsRequired": true
       }
     ],
@@ -704,6 +704,69 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.WeightController",
+    "Method": "GetAll",
+    "RelativePath": "api/Weight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.WeightController",
+    "Method": "Add",
+    "RelativePath": "api/Weight",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "weight",
+        "Type": "Shipping.core.Models.Weight",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.WeightController",
+    "Method": "GetById",
+    "RelativePath": "api/Weight/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.WeightController",
+    "Method": "Update",
+    "RelativePath": "api/Weight/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "weight",
+        "Type": "Shipping.core.Models.Weight",
         "IsRequired": true
       }
     ],
