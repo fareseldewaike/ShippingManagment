@@ -4,7 +4,9 @@ namespace Shipping.DTO
 {
     public class GovernorateDTO
     {
-         [Required]
+        public int Id { get; set; }
+
+        [Required]
         public string Name { get; set; }
         public List<CityDTO> Cities { get; set; } = new();
 
