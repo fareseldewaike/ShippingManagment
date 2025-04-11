@@ -19,5 +19,8 @@ namespace Shipping.core.Models
         [ForeignKey("Merchant")]
         public string MerchentId { get; set; }
         public virtual Merchant? Merchant { get; set; }
+        [ForeignKey("Governorate")]
+        public int GovernorateId { get; set; }
+        public virtual Governorate? Governorate { get; set; }
     }
 }
