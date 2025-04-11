@@ -13,7 +13,7 @@ namespace Shipping.services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IGroupPermissionRepo _groupPermissionRepo;
 
-        public GroupService(IUnitOfWork unitOfWork , IGroupPermissionRepo groupPermissionRepo)
+        public GroupService(IUnitOfWork unitOfWork, IGroupPermissionRepo groupPermissionRepo)
 
         {
             _unitOfWork = unitOfWork;

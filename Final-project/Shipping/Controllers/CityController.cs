@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DTOs.DTO;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shipping.core.Interfaces;
 using Shipping.DTO;
@@ -35,7 +36,7 @@ namespace Shipping.Controllers
             return Ok(city);
         }
         [HttpPost]
-        public async Task<ActionResult> AddCity(CityDTO cityDto)
+        public async Task<ActionResult> AddCity(CityAdd cityDto)
         {
             if (!ModelState.IsValid)
             {

@@ -8,8 +8,11 @@ namespace DTOs.DTO
 {
     public class GroupPermissionDto
     {
-        public string Name { get; set; }  
-        public List<PermissionDto> Permissions { get; set; }  
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+        public List<PermissionDto> Permissions { get; set; }
+
 
     }
 }
