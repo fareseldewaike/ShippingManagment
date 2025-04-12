@@ -73,7 +73,7 @@ namespace Shipping.Controllers
             var merchant = new Merchant
             {
                 Name = merchantAdd.MerchantName,
-                UserName = "user not found123",
+                UserName = merchantAdd.Email,
                 StoreName = merchantAdd.StoreName,
                 Address = merchantAdd.Address,
                 PickUp = merchantAdd.PickUp,
@@ -107,8 +107,7 @@ namespace Shipping.Controllers
 
             return Ok(new
             {
-                Message = "Merchant registered successfully",
-                Token = "Token"  
+                Message = "Merchant registered successfully", 
             });
         }
 
