@@ -293,6 +293,9 @@
             "projectReferences": {
               "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj": {
                 "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj"
+              },
+              "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Shipping.repo.csproj": {
+                "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Shipping.repo.csproj"
               }
             }
           }
