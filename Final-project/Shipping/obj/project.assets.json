@@ -1816,7 +1816,8 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.3",
-          "Shipping.core": "1.0.0"
+          "Shipping.core": "1.0.0",
+          "Shipping.repo": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Shipping.services.dll": {}

@@ -46,3 +46,15 @@ D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\DTO
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\bin\Debug\net9.0\DTOs.deps.json
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\bin\Debug\net9.0\DTOs.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\bin\Debug\net9.0\DTOs.pdb
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfo.cs
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.sourcelink.json
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\refint\DTOs.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\DTOs.pdb
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\DTOs\obj\Debug\net9.0\ref\DTOs.dll

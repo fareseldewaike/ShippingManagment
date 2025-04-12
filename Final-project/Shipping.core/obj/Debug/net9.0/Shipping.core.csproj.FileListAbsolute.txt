@@ -98,3 +98,21 @@ D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shi
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.genruntimeconfig.cache
 D:\Iti 4-mounth\Graduation Project\save copy\ShippingManagment\Final-project\Shipping.core\obj\Debug\net9.0\ref\Shipping.core.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.deps.json
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.runtimeconfig.json
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\Shipping.core.pdb
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\DTOs.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\bin\Debug\net9.0\DTOs.pdb
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.csproj.AssemblyReference.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.AssemblyInfoInputs.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.AssemblyInfo.cs
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.csproj.CoreCompileInputs.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.sourcelink.json
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.3810CF18.Up2Date
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\refint\Shipping.core.dll
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.pdb
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\Shipping.core.genruntimeconfig.cache
+C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.core\obj\Debug\net9.0\ref\Shipping.core.dll

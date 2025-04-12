@@ -49,7 +49,10 @@ namespace Shipping
             builder.Services.AddScoped<ISpecialPrice, SpecialShippingPrice>();
             builder.Services.AddScoped<IGroupPermissionRepo, GroupPermissionRepo>();
             builder.Services.AddScoped<GroupService>();
-
+            builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
+            builder.Services.AddScoped<OrderService>();
+            builder.Services.AddScoped<DashboardService>();
 
             // Allow all origins (for development)
             builder.Services.AddCors(options =>
