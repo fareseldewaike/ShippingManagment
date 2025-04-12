@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj": {}
+    "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\Shipping.services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj": {
+    "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj",
         "projectName": "DTOs",
-        "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\obj\\",
+        "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\Islam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj": {
+    "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
+        "projectUniqueName": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj",
         "projectName": "Shipping.core",
-        "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\obj\\",
+        "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj",
+        "packagesPath": "C:\\Users\\Islam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,15 +91,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj": {
-                "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\DTOs\\DTOs.csproj"
+              "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj"
               }
             }
           }
@@ -158,24 +156,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj": {
+    "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\Shipping.services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj",
+        "projectUniqueName": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\Shipping.services.csproj",
         "projectName": "Shipping.services",
-        "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\Shipping.services.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.services\\obj\\",
+        "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\Shipping.services.csproj",
+        "packagesPath": "C:\\Users\\Islam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,15 +182,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj": {
-                "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj"
+              "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj": {
+                "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj"
               }
             }
           }
@@ -250,7 +247,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
