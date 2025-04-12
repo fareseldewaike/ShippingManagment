@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Shipping.core.Interfaces;
 using Shipping.core.Models;
 using Shipping.Mapping;
+using Shipping.Middleware;
 using Shipping.repo.Implementation;
 using Shipping.repo.ShippingCon;
 using Shipping.services;
@@ -94,7 +95,7 @@ namespace Shipping
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
-
+            app.UseMiddleware<ExceptionHandlerMiddleware>();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -111,7 +112,7 @@ namespace Shipping
             using (var scope = app.Services.CreateScope())
             {
  
-                await SeedDataAsync(scope.ServiceProvider); // Seed data
+                await SeedDataAsync(scope.ServiceProvider); 
             }
 
             app.Run();
