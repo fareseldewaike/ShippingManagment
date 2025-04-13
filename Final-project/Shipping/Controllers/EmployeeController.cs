@@ -40,6 +40,7 @@ namespace Shipping.API.Controllers
         public async Task<ActionResult<IEnumerable<EmployeeDTO>>> GetEmployees()
         {
             var employees = await _context.Employees
+                .Where(e => !e.IsDeleted)
                 .Include(e => e.branch)
                 .Include(e => e.Group)
                 .ToListAsync();
