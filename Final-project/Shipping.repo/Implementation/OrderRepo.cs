@@ -32,14 +32,13 @@ namespace Shipping.repo.Implementation
             throw new NotImplementedException();
         }
 
-        public async Task<List<Order>> GetAllOrders(int pagenum,int pagsize)
+        public async Task<List<Order>> GetAllOrders()
         {
-            var orders = await _context.Orders.Where(o=>o.isDeleted==false).Skip((pagenum - 1) * pagsize).Take(pagsize)
+            var orders = await _context.Orders
        .Include(o => o.Governorate)
        .Include(o => o.Merchant)
        .ToListAsync();
             return orders;
-
 
         }
 

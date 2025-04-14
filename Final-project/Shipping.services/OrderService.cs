@@ -13,11 +13,13 @@ namespace Shipping.services
     {
         private readonly IOrderRepo _orderRepo;
         private readonly IProductRepo _productRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public OrderService(IOrderRepo orderRepo, IProductRepo productRepo)
+        public OrderService(IOrderRepo orderRepo, IProductRepo productRepo , IUnitOfWork unitOfWork)
         {
             _orderRepo = orderRepo;
             _productRepo = productRepo;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task CreateOrder(ADDOrderDTO order)
@@ -109,8 +111,12 @@ namespace Shipping.services
         }
         public async Task<List<ReportDTO>> GetOrderReport(int pageSize, int pageNum ,DateTime? fromDate , DateTime? toDate , DTOs.DTO.Order.OrderStatus? status )
         {
-            var orders = await _orderRepo.GetAllOrders(pageNum, pageSize);
-
+            var orderss = await _orderRepo.GetAllOrders();
+            var orders =orderss.Where(orderss => orderss.isDeleted == false).Skip((pageNum - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+            var baseweight =await _unitOfWork.Repository<Weight>().GetAllAsync();
+            var lastupdatedWeight = baseweight.FirstOrDefault();
             if (orders == null || !orders.Any())
             {
                 throw new Exception("No orders found.");
@@ -134,9 +140,9 @@ namespace Shipping.services
 
                 double shippingCost = baseCost + (specialPrice ?? 0.0);
 
-                if (o.Weight > 10)
+                if (o.Weight > lastupdatedWeight.DefaultWeight)
                 {
-                    double extraWeightCost = (o.Weight - 10) * 20.0;
+                    double extraWeightCost = (o.Weight - lastupdatedWeight.DefaultWeight) * lastupdatedWeight.AdditionalPrice;
                     shippingCost += extraWeightCost;
                 }
 
@@ -186,7 +192,10 @@ namespace Shipping.services
 
         public async Task<List<Order>> GetOrdersByDateRangeAndStatus(int pageSize, int pageNum,DateTime startDate, DateTime endDate, string status)
         {
-            var orders = await _orderRepo.GetAllOrders(pageSize,pageNum);
+            var orderss = await _orderRepo.GetAllOrders();
+            var orders = orderss.Where(orderss => orderss.isDeleted == false).Skip((pageNum - 1) * pageSize)
+              .Take(pageSize)
+              .ToList();
             if (orders == null || !orders.Any())
             {
                 throw new Exception("No orders found.");

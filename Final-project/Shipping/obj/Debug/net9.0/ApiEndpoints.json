@@ -822,6 +822,16 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "pagesize",
         "Type": "System.Int32",
         "IsRequired": false
@@ -829,6 +839,11 @@
       {
         "Name": "pagenum",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

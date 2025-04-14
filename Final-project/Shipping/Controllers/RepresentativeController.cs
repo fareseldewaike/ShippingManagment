@@ -125,11 +125,23 @@ namespace Shipping.Controllers
                 Type = (core.Models.AmountType?)representativeAdd.Type,
                 RepresentativeGovernorate = representativeAdd.governorates.Select(g => new RepresentativeGovernorate
                 {
-                    GovernorateId = g.Id
+                    GovernorateId = g.Id,
+                   
                 }).ToList()
 
             };
+
             var result = await _userManager.CreateAsync(representative, representativeAdd.Password);
+
+            var governorates = representativeAdd.governorates.Select(g => new RepresentativeGovernorate
+            {
+                RepresentativeId = representative.Id,
+                GovernorateId = g.Id
+            }).ToList();
+
+            _context.RepresentativeGovernorates.AddRange(governorates);
+            await _context.SaveChangesAsync();
+
             if (!result.Succeeded)
             {
                 return BadRequest(result.Errors);

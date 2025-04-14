@@ -14,7 +14,7 @@ namespace Shipping.core.Interfaces
         Task<bool> UpdateOrder(Order order);
         Task<bool> DeleteOrder(int id);
         Task<Order> GetOrderById(int id);
-        Task<List<Order>> GetAllOrders(int pagenum, int pagsize);
+        Task<List<Order>> GetAllOrders();
         Task<List<Order>> GetOrdersByMerchantId(int MerchantId);
         Task<List<Order>> GetOrdersByDateRangeAndStatus(DateTime startDate, DateTime endDate, string status);
         Task<List<Order>> GetOrdersByBranchId(int branchId);

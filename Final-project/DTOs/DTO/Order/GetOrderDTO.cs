@@ -11,7 +11,7 @@ namespace DTOs.DTO.Order
         public int SerialNum { get; set; }
         public string ClientName { get; set; } = string.Empty;
         public string PhoneNumber { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
+        public double orderCost { get; set; }
         public string Governorate { get; set; }
 
         public string City { get; set; } = string.Empty;
