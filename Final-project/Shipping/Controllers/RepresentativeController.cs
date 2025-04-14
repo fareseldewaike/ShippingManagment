@@ -41,7 +41,7 @@ namespace Shipping.Controllers
                     .ToList();
                 var f = new representativeDTO
                 {
-
+                    id = r.Id,
                     Name = r.Name,
                     Address = r.Address,
                     Phone = r.PhoneNumber,
