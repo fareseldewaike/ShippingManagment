@@ -25,19 +25,47 @@ namespace Shipping.Controllers
         public IOrderRepo OrderRepo { get; }
 
         [HttpGet("GetAllOrders")]
-        public async Task<IActionResult> GetAll(int pagesize, int pagenum)
+        public async Task<IActionResult> GetAll(string? id,string? role,int pagesize, int pagenum , DTOs.DTO.Order.OrderStatus? status = null )
         {
-            var orders = await _orderRepo.GetAllOrders(pagenum, pagesize);
-            if (orders == null || !orders.Any())
+            var orderss = await _orderRepo.GetAllOrders();
+            if (orderss == null || !orderss.Any())
             {
                 return NotFound("No orders found.");
             }
-            var orderDTOs = orders.Select(o => new GetOrderDTO
+           
+            var orders = orderss.Where(o => !o.isDeleted).ToList();
+
+            if (!string.IsNullOrEmpty(id) && !string.IsNullOrEmpty(role))
+            {
+                if (role == "Merchant")
+                {
+                    orders = orders.Where(o => o.MerchantId == id).ToList();
+                }
+                else if (role == "Representative")
+                {
+                    orders = orders.Where(o => o.RepresentativeId == id).ToList();
+                }
+            }
+
+            if (status == null)
+            {
+                  orders = orders.Where(o => o.isDeleted == false  ).ToList();
+            }
+            else
+            {
+                  orders = orders.Where(o => o.isDeleted == false && (int)o.orderStatus == (int)status.Value).ToList();
+            }
+            // Apply pagination after filtering
+            var paginatedOrders = orders
+                .Skip((pagenum - 1) * pagesize)
+                .Take(pagesize)
+                .ToList();
+            var orderDTOs = paginatedOrders.Select(o => new GetOrderDTO
             {
                 SerialNum = o.Id,
                 ClientName = o.ClientName,
                 PhoneNumber = o.FirstPhoneNumber,
-                Email = o.Email,
+                orderCost = o.ProductTotalCost,
                 Governorate = o.Governorate.Name,
                 City = o.City.Name,
                 Date = o.Date
@@ -46,6 +74,7 @@ namespace Shipping.Controllers
 
             return Ok(orderDTOs);
         }
+       
         [HttpGet("GetOrderById/{id}")]
         public async Task<IActionResult> GetOrderById(int id)
         {
@@ -59,7 +88,7 @@ namespace Shipping.Controllers
                 SerialNum = order.Id,
                 ClientName = order.ClientName,
                 PhoneNumber = order.FirstPhoneNumber,
-                Email = order.Email,
+                orderCost = order.ProductTotalCost,
                 Governorate = order.Governorate.Name,
                 City = order.City.Name,
                 Date = order.Date

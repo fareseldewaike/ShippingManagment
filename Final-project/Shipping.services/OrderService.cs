@@ -111,7 +111,10 @@ namespace Shipping.services
         }
         public async Task<List<ReportDTO>> GetOrderReport(int pageSize, int pageNum ,DateTime? fromDate , DateTime? toDate , DTOs.DTO.Order.OrderStatus? status )
         {
-            var orders = await _orderRepo.GetAllOrders(pageNum, pageSize);
+            var orderss = await _orderRepo.GetAllOrders();
+            var orders =orderss.Where(orderss => orderss.isDeleted == false).Skip((pageNum - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
             var baseweight =await _unitOfWork.Repository<Weight>().GetAllAsync();
             var lastupdatedWeight = baseweight.FirstOrDefault();
             if (orders == null || !orders.Any())
@@ -189,7 +192,10 @@ namespace Shipping.services
 
         public async Task<List<Order>> GetOrdersByDateRangeAndStatus(int pageSize, int pageNum,DateTime startDate, DateTime endDate, string status)
         {
-            var orders = await _orderRepo.GetAllOrders(pageSize,pageNum);
+            var orderss = await _orderRepo.GetAllOrders();
+            var orders = orderss.Where(orderss => orderss.isDeleted == false).Skip((pageNum - 1) * pageSize)
+              .Take(pageSize)
+              .ToList();
             if (orders == null || !orders.Any())
             {
                 throw new Exception("No orders found.");
