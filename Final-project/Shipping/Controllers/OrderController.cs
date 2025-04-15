@@ -95,6 +95,59 @@ namespace Shipping.Controllers
             };
             return Ok(orderDTO);
         }
+        [HttpPut("UpdateOrderStatus/{id}")]
+        public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] int orderStatus)
+        {
+            if (ModelState.IsValid)
+            {
+                var existingOrder = await _orderRepo.GetOrderById(id);
+                if (existingOrder == null)
+                {
+                    return NotFound("Order not found.");
+                }
+                existingOrder.orderStatus = (core.Models.OrderStatus)orderStatus;
+                await _orderRepo.UpdateOrder(existingOrder);
+                return Ok(new { message = "Order Status Updated Successfully" });
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+        }
+        [HttpGet("GetAllOrdersWithNoRepresentatives")]
+        public async Task<IActionResult> GetAllOrdersWithNoRepresentatives()
+        {
+            var orderss = await _orderRepo.GetAllOrders();
+            if (orderss == null || !orderss.Any())
+            {
+                return NotFound("No orders found.");
+            }
+            var orders = orderss.Where(o => o.isDeleted == false && o.RepresentativeId == null).ToList();
+            var orderDTOs = orders.Select(o => new GetOrderDTO
+            {
+                SerialNum = o.Id,
+                ClientName = o.ClientName,
+                PhoneNumber = o.FirstPhoneNumber,
+                orderCost = o.ProductTotalCost,
+                Governorate = o.Governorate.Name,
+                City = o.City.Name,
+                Date = o.Date
+            }).ToList();
+            return Ok(orderDTOs);
+        }
+        [HttpPut("AssignRepresentative/{orderId}/{representativeId}")]
+        public async Task<IActionResult> AssignRepresentative(int orderId, string representativeId)
+        {
+            var order = await _orderRepo.GetOrderById(orderId);
+            if (order == null)
+            {
+                return NotFound("Order not found.");
+            }
+            order.RepresentativeId = representativeId;
+            await _orderRepo.UpdateOrder(order);
+            return Ok(new { message = "Representative Assigned Successfully" });
+        }
+
         [HttpPost("CreateOrder")]
         public async Task<IActionResult> CreateOrder([FromBody] ADDOrderDTO order)
         {
