@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ShippingType = DTOs.DTO.Order.ShippingType;
 
 namespace Shipping.services
 {
@@ -132,7 +133,7 @@ namespace Shipping.services
                 orders = orders.Where(o => (int)o.orderStatus == (int)status.Value).ToList();
             var reportDTOs = orders.Select(o =>
             {
-                double baseCost = 50.0;
+                double baseCost = o.City.Price; // instead of 50
 
                 double? specialPrice = (double?)(
                     o.Merchant?.SpecialPrices?
@@ -150,6 +151,14 @@ namespace Shipping.services
                 if (o.DeliverToVillage == true)
                 {
                     shippingCost += 40.0;
+                }
+                if ((int)o.ShippingType == (int)ShippingType.ShippingIn24Hours)
+                {
+                    shippingCost += 50.0;
+                }
+                 if ((int)o.ShippingTypeId == (int)ShippingType.ShippingIn15Days)
+                {
+                    shippingCost += 20.0;
                 }
 
                 // Safeguard in case Representative is null
