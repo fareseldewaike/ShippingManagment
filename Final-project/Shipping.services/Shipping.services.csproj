@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shipping.core\Shipping.core.csproj" />
+    <ProjectReference Include="..\Shipping.repo\Shipping.repo.csproj" />
   </ItemGroup>
 
 </Project>

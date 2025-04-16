@@ -297,6 +297,9 @@
             "projectReferences": {
               "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj": {
                 "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Shipping.core.csproj"
+              },
+              "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Shipping.repo.csproj": {
+                "projectPath": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.repo\\Shipping.repo.csproj"
               }
             }
           }

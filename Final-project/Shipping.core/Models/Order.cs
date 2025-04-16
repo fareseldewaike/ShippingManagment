@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -52,10 +53,16 @@ namespace Shipping.core.Models
         public OrderType orderType { get; set; }
         public OrderStatus orderStatus { get; set; }
 
+        [ForeignKey("City")]
+        public int CityId { get; set; }
+
+
         [ForeignKey("Governorate")]
         public int GovernorateId { get; set; }
 
-        
+
+
+
         public string Street { get; set; } = string.Empty;
 
         public bool? DeliverToVillage { get; set; }
@@ -90,8 +97,9 @@ namespace Shipping.core.Models
 
         public virtual Rejection? Rejection { get; set; }
         public virtual Governorate? Governorate { get; set; }
-        
-       public ShippingType ShippingType { get; set; }=ShippingType.NormalShipping;
+        public virtual City? City { get; set; }
+
+        public ShippingType ShippingType { get; set; } = ShippingType.NormalShipping;
 
         public virtual Branch? Branch { get; set; }
         public virtual Representative? Representative { get; set; }
