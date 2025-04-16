@@ -2938,23 +2938,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Islam\\.nuget\\packages\\": {},
+    "C:\\Users\\Support\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj",
+      "projectUniqueName": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping.core\\Shipping.core.csproj",
       "projectName": "Shipping.core",
-      "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Shipping.core.csproj",
-      "packagesPath": "C:\\Users\\Islam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\obj\\",
+      "projectPath": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping.core\\Shipping.core.csproj",
+      "packagesPath": "C:\\Users\\Support\\.nuget\\packages\\",
+      "outputPath": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Support\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2969,8 +2969,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTOs.csproj"
+            "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\DTOs\\DTOs.csproj": {
+              "projectPath": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\DTOs\\DTOs.csproj"
             }
           }
         }
@@ -3028,7 +3028,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,9 +17,8 @@ namespace DTOs.DTO.Order
         public string City { get; set; } = string.Empty;
         
         public DateTime Date { get; set; }
-       
-      
-       
+
+        public ADDOrderDTO OrderData { get; set; }
 
     }
 }

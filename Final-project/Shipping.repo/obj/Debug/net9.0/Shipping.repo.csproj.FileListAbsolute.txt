@@ -132,3 +132,23 @@ C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.repo\obj\Debug
 C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.pdb
 C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.genruntimeconfig.cache
 C:\Users\Islam\OneDrive\Desktop\final-back\Final-project\Shipping.repo\obj\Debug\net9.0\ref\Shipping.repo.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.deps.json
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.runtimeconfig.json
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.repo.pdb
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\DTOs.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\Shipping.core.pdb
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\bin\Debug\net9.0\DTOs.pdb
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.AssemblyReference.cache
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfoInputs.cache
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.AssemblyInfo.cs
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.csproj.CoreCompileInputs.cache
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.sourcelink.json
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.098C0A10.Up2Date
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\refint\Shipping.repo.dll
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.pdb
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\Shipping.repo.genruntimeconfig.cache
+D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.repo\obj\Debug\net9.0\ref\Shipping.repo.dll
