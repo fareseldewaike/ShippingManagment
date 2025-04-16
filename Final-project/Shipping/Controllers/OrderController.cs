@@ -68,7 +68,34 @@ namespace Shipping.Controllers
                 orderCost = o.ProductTotalCost,
                 Governorate = o.Governorate.Name,
                 City = o.City.Name,
-                Date = o.Date
+                Date = o.Date,
+                OrderData = new ADDOrderDTO
+                {
+                    //Id = o.Id,
+                    ClientName = o.ClientName,
+                    FirstPhoneNumber = o.FirstPhoneNumber,
+                    SecondPhoneNumber = o.SecondPhoneNumber,
+                    Email = o.Email,
+                    PaymentType = (DTOs.DTO.Order.PaymentType)o.PaymentType,
+                    //orderType = (DTOs.DTO.Order.ShippingType)o.ShippingType,
+                    //orderStatus = order.orderStatus,
+                    CityId = o.CityId,
+                    GovernorateId = o.GovernorateId,
+                    ShippingType = (DTOs.DTO.Order.ShippingType)o.ShippingType,
+                    BranchId = o.BranchId,
+                    DeliverToVillage = o.DeliverToVillage,
+                    Products = o.Products.Select(p => new ProductDTO
+                    {
+                        Name = p.Name,
+                        Quantity = p.Quantity,
+                        Weight = p.Weight
+                    }).ToList(),
+                    OrderTotalWeight = o.Weight,
+                    OrderCost = o.OrderShippingTotalCost,
+                    MerchantId = o.MerchantId,
+                    Notes = o.Notes,
+                    Street = o.Street
+                }
             }).ToList();
 
 
@@ -91,7 +118,34 @@ namespace Shipping.Controllers
                 orderCost = order.ProductTotalCost,
                 Governorate = order.Governorate.Name,
                 City = order.City.Name,
-                Date = order.Date
+                Date = order.Date,
+                OrderData = new ADDOrderDTO
+                {
+                    //Id = order.Id,
+                    ClientName = order.ClientName,
+                    FirstPhoneNumber = order.FirstPhoneNumber,
+                    SecondPhoneNumber = order.SecondPhoneNumber,
+                    Email = order.Email,
+                    PaymentType = (DTOs.DTO.Order.PaymentType)order.PaymentType,
+                    //orderType = Shipping.core.Models.order.OrderType,
+                    //orderStatus = order.orderStatus,
+                    CityId = order.CityId,
+                    GovernorateId = order.GovernorateId,
+                    ShippingType = (DTOs.DTO.Order.ShippingType)order.ShippingType,
+                    BranchId = order.BranchId,
+                    DeliverToVillage = order.DeliverToVillage,
+                    Products = order.Products.Select(p => new ProductDTO
+                    {
+                        Name = p.Name,
+                        Quantity = p.Quantity,
+                        Weight = p.Weight
+                    }).ToList(),
+                    OrderTotalWeight = order.Weight,
+                    OrderCost = order.OrderShippingTotalCost,
+                    MerchantId = order.MerchantId,
+                    Notes = order.Notes,
+                    Street = order.Street
+                }
             };
             return Ok(orderDTO);
         }
