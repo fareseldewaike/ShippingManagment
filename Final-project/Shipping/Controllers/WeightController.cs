@@ -43,15 +43,30 @@ namespace Shipping.Controllers
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] Weight weight)
         {
-            if (weight == null)
+            //if (weight == null)
+            //{
+            //    return BadRequest("Invalid data.");
+            //}
+
+            //await _weightRepository.Repository<Weight>().AddAsync(weight);
+            //await _weightRepository.CompleteAsync();
+
+            //return CreatedAtAction(nameof(GetById), new { id = weight.Id }, weight);
+
+            var existingWeightt = await _weightRepository.Repository<Weight>().GetAllAsync();
+            var existingWeight = existingWeightt.FirstOrDefault();
+            if (existingWeight == null)
             {
-                return BadRequest("Invalid data.");
+                return NotFound();
             }
 
-            await _weightRepository.Repository<Weight>().AddAsync(weight);
+            existingWeight.DefaultWeight = weight.DefaultWeight;
+            existingWeight.AdditionalPrice = weight.AdditionalPrice;
+
+            _weightRepository.Repository<Weight>().UpdateAsync(existingWeight);
             await _weightRepository.CompleteAsync();
 
-            return CreatedAtAction(nameof(GetById), new { id = weight.Id }, weight);
+            return NoContent();
         }
         // Update
         [HttpPut("{id}")]

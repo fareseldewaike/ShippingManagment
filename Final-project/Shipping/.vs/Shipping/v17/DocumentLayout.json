@@ -1,33 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\",
+  "WorkspaceRootPath": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\shipping\\controllers\\weightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\dtos\\dto\\order\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\representativecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\representativecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\merchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\merchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\orderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\orderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\weightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\weightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\shipping\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\shipping\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A834047-6D45-4B6F-9292-78C1086D3A15}|..\\DTOs\\DTOs.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\dtos\\dto\\grouppermissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\exceptionhandle\\apiexceptionerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:exceptionhandle\\apiexceptionerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4046DDCC-4B61-4054-88FC-5D49A308B267}|..\\Shipping.services\\Shipping.services.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\shipping.services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|d:\\iti 4-mounth\\last back\\shippingmanagment\\final-project\\shipping\\middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC844925-5517-42B1-AD08-85DF8A73689C}|Shipping.csproj|solutionrelative:middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EFF70B-275C-4AA6-AEB2-7CDCE370F40A}|..\\Shipping.repo\\Shipping.repo.csproj|d:\\iti 4-mounth\\graduation project\\save copy\\shippingmanagment\\final-project\\shipping.repo\\implementation\\grouppermissionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.Groups.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\OrderRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.GroupPermissions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Interfaces\\IOrderRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\RepresentativeGovernorate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\representative\\representativeDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\Order\\GetOrderDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\ShippingCon\\ShippingContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\GenericRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\DashboardService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,104 +86,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BranchController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\BranchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\BranchController.cs",
-              "RelativeToolTip": "Controllers\\BranchController.cs",
-              "ViewState": "AgIAABEAAACAXveiCuUTwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T09:09:30.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeightController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\WeightController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeightController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\WeightController.cs",
-              "RelativeToolTip": "Controllers\\WeightController.cs",
-              "ViewState": "AgIAAAcAAAAAzGGmXtQWwBYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T09:04:51.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GroupPermissionDto.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\DTOs\\DTO\\GroupPermissionDto.cs",
-              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\GroupPermissionDto.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\DTOs\\DTO\\GroupPermissionDto.cs",
-              "RelativeToolTip": "..\\DTOs\\DTO\\GroupPermissionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:48:31.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GroupPermissionRepo.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping.repo\\Implementation\\GroupPermissionRepo.cs",
-              "RelativeDocumentMoniker": "..\\Shipping.repo\\Implementation\\GroupPermissionRepo.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping.repo\\Implementation\\GroupPermissionRepo.cs",
-              "RelativeToolTip": "..\\Shipping.repo\\Implementation\\GroupPermissionRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:48:01.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping.services\\GroupService.cs",
-              "RelativeDocumentMoniker": "..\\Shipping.services\\GroupService.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping.services\\GroupService.cs",
-              "RelativeToolTip": "..\\Shipping.services\\GroupService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:47:33.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Groups [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.Groups.sql",
-              "ToolTip": "dbo.Groups [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-11T06:43:14.402Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T00:40:31.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
-              "ToolTip": "D:\\Iti 4-mounth\\Graduation Project\\save copy\\ShippingManagment\\Final-project\\Shipping\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "Controllers\\GroupController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGQAAAArAAAAAAAAAA==",
+              "Title": "GetOrderDTO.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "RelativeDocumentMoniker": "..\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "RelativeToolTip": "..\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:32:16.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.GroupPermissions [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./SHIPPING/True/SqlTable/dbo.GroupPermissions.sql",
-              "ToolTip": "dbo.GroupPermissions [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-11T06:24:43.764Z",
+              "WhenOpened": "2025-04-16T00:31:57.943Z",
               "EditorCaption": ""
             },
             {
@@ -152,6 +129,226 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepresentativeController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RepresentativeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RepresentativeController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\RepresentativeController.cs",
+              "RelativeToolTip": "Controllers\\RepresentativeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:05:37.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\OrderRepo.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\OrderRepo.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:27:21.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:22:56.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderStatusDTO.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\OrderStatusDTO.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderStatusDTO.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\OrderStatusDTO.cs",
+              "RelativeToolTip": "Controllers\\OrderStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:38:22.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Interfaces\\IOrderRepo.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Interfaces\\IOrderRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:29:33.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MerchantController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\MerchantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MerchantController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\MerchantController.cs",
+              "RelativeToolTip": "Controllers\\MerchantController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:25:02.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepresentativeGovernorate.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\RepresentativeGovernorate.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\RepresentativeGovernorate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:07:51.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "representativeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\representative\\representativeDTO.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\representative\\representativeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:59:38.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\DTOs\\DTO\\Order\\GetOrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:57:59.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Weight.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Weight.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Weight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:13:39.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.core\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:25:50.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShippingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\ShippingCon\\ShippingContext.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\ShippingCon\\ShippingContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:23:20.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.repo\\Implementation\\GenericRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:23:07.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeightController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\WeightController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeightController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\WeightController.cs",
+              "RelativeToolTip": "Controllers\\WeightController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwDgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:27:37.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashBoardController.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:22:48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\Islam\\OneDrive\\Desktop\\final-back\\Final-project\\Shipping.services\\DashboardService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:22:05.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAFYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:03:20.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Middleware\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\Middleware\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:59:28.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiExceptionErrorResponse.cs",
+              "DocumentMoniker": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\ExceptionHandle\\ApiExceptionErrorResponse.cs",
+              "RelativeDocumentMoniker": "ExceptionHandle\\ApiExceptionErrorResponse.cs",
+              "ToolTip": "D:\\Iti 4-mounth\\last back\\ShippingManagment\\Final-project\\Shipping\\ExceptionHandle\\ApiExceptionErrorResponse.cs",
+              "RelativeToolTip": "ExceptionHandle\\ApiExceptionErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:58:14.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\Shipping-System\\Final-project\\Shipping.core\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:56:20.553Z"
             }
           ]
         }

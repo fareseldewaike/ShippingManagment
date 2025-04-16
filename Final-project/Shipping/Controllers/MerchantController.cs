@@ -34,32 +34,56 @@ namespace Shipping.Controllers
         [HttpGet("all")]
         public async Task<IActionResult> GetAllMerchants()
         {
-            var merchants = await _userManager.GetUsersInRoleAsync("Merchant");
-            if (merchants == null)
+            var merchants = (await _userManager.GetUsersInRoleAsync("Merchant"))
+                            .Cast<Merchant>()
+                            .ToList();
+
+            if (merchants == null || !merchants.Any())
             {
                 return NotFound();
             }
-            return Ok(merchants);
+
+            var getAllMerchantsDto = merchants.Select(m => new GetAllMerchantsDto
+            {
+                Id = m.Id,
+                Name = m.Name,
+                StoreName = m.StoreName,
+                Phone = m.PhoneNumber,
+                Email = m.Email,
+                BranchName = m.branch?.Name,
+                GovernateName = m.Governorate?.Name,
+                IsDeleted = m.IsDeleted,
+                ReturnerPercent = m.ReturnerPercent
+            }).ToList();
+
+            return Ok(getAllMerchantsDto);
         }
+
         [HttpPost("register")]
         public async Task<ActionResult> RegisterMerchant(MerchantAdd merchantAdd)
         {
-            var branchExists = await _context.Branches.AnyAsync(b => b.Id == merchantAdd.BranchId);
-            if (!branchExists)
-            {
-                return BadRequest("Invalid BranchId. The specified branch does not exist.");
-            }
 
+            List<SpecialPrice> specialPrices = merchantAdd.SpecialPrices.Select(p => new SpecialPrice
+            {
+                Price = p.Price,
+                CityId = p.CityId,
+                GovernorateId = p.GovernorateId,
+                MerchentId = null
+            }).ToList();
             var merchant = new Merchant
             {
                 Name = merchantAdd.MerchantName,
-                UserName = merchantAdd.UserName,
+                UserName = merchantAdd.Email,
                 StoreName = merchantAdd.StoreName,
                 Address = merchantAdd.Address,
                 PickUp = merchantAdd.PickUp,
                 ReturnerPercent = merchantAdd.ReturnerPercent,
                 Email = merchantAdd.Email,
+                PhoneNumber = merchantAdd.PhoneNumber,
                 BranchId = merchantAdd.BranchId,
+                CityId = merchantAdd.CityId,
+                GovernorateId = merchantAdd.GovernorateId,
+                SpecialPrices = specialPrices
             };
 
             var result = await _userManager.CreateAsync(merchant, merchantAdd.Password); 
@@ -69,14 +93,21 @@ namespace Shipping.Controllers
                 return BadRequest(result.Errors);
             }
 
+
+            foreach (var specialPrice in specialPrices)
+            {
+                specialPrice.MerchentId = merchant.Id;
+            }
+
+            await _specialShippingPrice.AddRangeAsync(specialPrices);
+
             await _userManager.AddToRoleAsync(merchant, "Merchant");
 
            //  var token = await Helper.GenerateJwtToken(merchant, _userManager);
 
             return Ok(new
             {
-                Message = "Merchant registered successfully",
-                Token = "Token"  
+                Message = "Merchant registered successfully", 
             });
         }
 

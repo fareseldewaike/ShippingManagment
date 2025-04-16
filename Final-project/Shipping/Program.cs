@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Shipping.core.Interfaces;
 using Shipping.core.Models;
 using Shipping.Mapping;
+using Shipping.Middleware;
 using Shipping.repo.Implementation;
 using Shipping.repo.ShippingCon;
 using Shipping.services;
@@ -48,7 +49,10 @@ namespace Shipping
             builder.Services.AddScoped<ISpecialPrice, SpecialShippingPrice>();
             builder.Services.AddScoped<IGroupPermissionRepo, GroupPermissionRepo>();
             builder.Services.AddScoped<GroupService>();
-
+            builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
+            builder.Services.AddScoped<OrderService>();
+            builder.Services.AddScoped<DashboardService>();
 
             // Allow all origins (for development)
             builder.Services.AddCors(options =>
@@ -94,7 +98,7 @@ namespace Shipping
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
-
+            app.UseMiddleware<ExceptionHandlerMiddleware>();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -111,7 +115,7 @@ namespace Shipping
             using (var scope = app.Services.CreateScope())
             {
  
-                await SeedDataAsync(scope.ServiceProvider); // Seed data
+                await SeedDataAsync(scope.ServiceProvider); 
             }
 
             app.Run();
