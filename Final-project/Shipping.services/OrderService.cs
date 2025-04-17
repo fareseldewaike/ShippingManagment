@@ -152,7 +152,7 @@ namespace Shipping.services
                 {
                     shippingCost += 40.0;
                 }
-                if ((int)o.ShippingType == (int)ShippingType.ShippingIn24Hours)
+                if ((int)o.ShippingTypeId == (int)ShippingType.ShippingIn24Hours)
                 {
                     shippingCost += 50.0;
                 }

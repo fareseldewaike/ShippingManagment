@@ -150,3 +150,5 @@ D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.services\obj\
 D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.pdb
 D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.services\obj\Debug\net9.0\Shipping.services.genruntimeconfig.cache
 D:\Iti 4-mounth\last back\ShippingManagment\Final-project\Shipping.services\obj\Debug\net9.0\ref\Shipping.services.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.repo.dll
+C:\Users\USER\Downloads\Shipping-System\Final-project\Shipping.services\bin\Debug\net9.0\Shipping.repo.pdb
